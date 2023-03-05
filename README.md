@@ -6,4 +6,5 @@ I have done alot of testing of different packages and types of plots scattered w
 
 * 01 - stacked bar chart with simple css styling utilising ggtext 
 * 02 - lollipop and bar chart utilising ggflags and ggimage packages 
-* 03 - tbc
+* 03 - bump plot highlighting top ranked countries, combined with patchwork to create a facet plot
+* 04 - tbc.
