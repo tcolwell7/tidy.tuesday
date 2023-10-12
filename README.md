@@ -9,4 +9,4 @@ Furthermore, I have created a shiny app in the shinyApp folder to test how each 
 * 02 - lollipop and bar chart utilising ggflags and ggimage packages 
 * 03 - bump plot highlighting top ranked countries, combined with patchwork to create a facet plot
 * 04 - dual stacked bar plot, utilising ggiraph for interactive visual utilising data_id 
-* 05 - tbc
+* 05 - patchwork combined chart with, ggimage, ggalt and ggtext packages to create custom visualisation
