@@ -99,7 +99,7 @@ colr3 <- "#004D44"
 caption_color <- "#0000EE"
 
 title_css <- 
-  glue::glue("<span style = 'font-size:16pt;color:{colr2}'>UK-FTA partner Tariff Rate Quota Utilisation</span><br>
+  glue::glue("<span style = 'font-size:16pt;color:{colr2}'>UK-FTA Partner Tariff Rate Quota Utilisation</span><br>
              <span style = 'font-size:11pt;'>Average TRQ fill-rates across quota year 2022</span></br>"
   )
 #<span style = 'font-size:16pt;color:{colr2}'>Tariff Rate Quota Utilisation</span><br>
@@ -142,7 +142,7 @@ lol2 <-
 # Save text data in a tibble
   tib_summary_text <- tibble(
     x = 0, 
-    y = c(1.52, 1.25,0.75,0.34,0), 
+    y = c(1.52, 1.25,0.75,0.33,-0.02), 
     label = c(
               "<span style = 'font-size=15;color:#02529C'>**ICELAND'S**</span> <span style = 'color:grey10'>average FTA fill-rate jumped<br> from **62%** in 2021 to **83%** in 2022, <br>the largest increase of any FTA partner. <br>This was driven by their filled **Salmon**, **Sole** <br>and **Sheepmeat** quotas.<br> **Iceland had the highest average fill-rate <br>across all FTA partners in 2021 and 2022**.</span>",
               "<span style = 'font-size=15;color:#BA0C2F'>**NORWAY**</span> <span style = 'color:grey10'>utilises a significant proportion <br>of their fish quota allocation, fully filling their<br>**Shrimp** and **Swordfish and whitefish fillets**. </span> ",
@@ -226,7 +226,7 @@ df2 %>%
 # customisation 
 
 title_css2 <- 
-  glue::glue("<span style = 'font-size:15pt;color:{colr2}'>UK-FTA TRQ utilisation 2021-2022.</span><br>
+  glue::glue("<span style = 'font-size:15pt;color:{colr2}'>UK-FTA TRQ Utilisation 2021-2022</span><br>
              <span style = 'font-size:11pt;'>Average TRQ fill-rates compared for quota year 2021 and 2022.</span></br>"
   )
 
